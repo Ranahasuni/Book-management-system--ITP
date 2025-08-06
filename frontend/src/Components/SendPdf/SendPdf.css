@@ -1,0 +1,94 @@
+.upload-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121c2b;
+  color:white;
+}
+
+.upload-container h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.upload-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color:white;
+}
+
+.upload-container input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.upload-container button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #656593;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-container button:hover {
+  background-color: #2d2d42;
+}
+.pdf-list-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+}
+
+.pdf-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.pdf-card {
+  width: 120px;
+  padding: 15px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.pdf-card h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #222;
+  margin-right:10px;
+}
+
+.pdf-card button {
+  padding: 6px 12px;
+  font-size: 13px;
+  background-color: #656593;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pdf-card button:hover {
+  background-color:#2d2d42;
+}

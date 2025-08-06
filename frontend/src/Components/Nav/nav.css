@@ -1,0 +1,82 @@
+/* Reset default margin & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Sticky, horizontal navbar */
+.home-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* space items evenly */
+  align-items: center;
+  background-color: #1f1f2e;
+  padding: 10px 20px;
+  position: sticky;
+  left:0;
+  top: 0;
+  width:100%;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar list items */
+.home-li {
+  margin: 0 10px;
+}
+
+/* Navbar links */
+.home-a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 10px;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.home-a:hover {
+  color: #00bcd4;
+}
+
+/* Buttons inside navbar */
+.home-a button {
+  padding: 6px 12px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.home-a button:hover {
+  background-color: #0196a3;
+}
+
+/* Responsive on smaller screens */
+@media (max-width: 768px) {
+  .home-ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .home-li {
+    margin: 8px 10px;
+  }
+
+  .home-a {
+    font-size: 10px;
+  }
+
+  .home-a button {
+    font-size: 14px;
+  }
+}
+
+
+
+

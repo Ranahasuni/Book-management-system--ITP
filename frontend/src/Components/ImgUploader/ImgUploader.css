@@ -1,0 +1,71 @@
+
+.gallery-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Title */
+.gallery-page h1 {
+  margin-top: 20px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}/* Upload form box */
+.upload-box {
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  background-color: #121c2b;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align:left;
+  color:white;
+ 
+}
+
+/* File input */
+.upload-box input[type="file"] {
+  margin-top: 10px;
+  color:white;
+}
+
+/* Upload button */
+.upload-box button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color:  #656593;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-box button:hover {
+  background-color:#2d2d42;
+}
+
+/* Image list */
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Each image */
+.gallery-images img {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+  transform: scale(1.05);
+}
