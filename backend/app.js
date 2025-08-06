@@ -15,7 +15,7 @@ app.use("/users",router);
 app.use("/files",express.static("files"));
 
 
-mongoose.connect("mongodb+srv://admin:7voDyqMcC4dExxmU@cluster0.egi66ot.mongodb.net/")
+// mongoose.connect("mongodb+srv://admin:7voDyqMcC4dExxmU@cluster0.egi66ot.mongodb.net/")
 .then(()=>console.log("Connected to MongoDB"))
 .then (()=>{
     app.listen(5000);
@@ -143,5 +143,6 @@ app.get("/getFile",async(req,res)=>{
         res.json({status:error});
     }
  });
+
 
 
